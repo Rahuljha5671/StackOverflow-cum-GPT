@@ -1,0 +1,117 @@
+.ask-question1 {
+    min-height: 100vh;
+    /*background-color: #8c8c8c;
+    background-color: whitesmoke;*/
+    /*background-color: rgb(32,33,36);*/
+    --tw-bg-opacity: 1;
+    background-color: rgba(52,53,65,var(--tw-bg-opacity));
+    
+}
+
+  
+  
+  .ask-question1 h2 {
+    padding: 80px 0px 20px 0px;
+    color: #D1D5DB;
+
+  }
+  
+  .ask-question1 p{
+    color: #D1D5DB;
+
+  }
+  
+  
+
+  /* Input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    opacity: 1;
+    background-color: rgba(68,70,84,var(--tw-bg-opacity))
+    
+  }
+  
+  /* Input field */
+  .input-field {
+    flex: 1;
+    border: none;
+    padding:  16px 0px 16px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    /*opacity: 1;
+    background-color: rgba(6,70,84,var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(247,247,248,var(--tw-bg-opacity));*/
+    background-color: #40414F;
+    width: calc(100% - 20px);
+    resize:none;
+    color: #D1D5DB;
+    
+
+  }
+  /* enter image */
+  .enter{
+    /* background-color: #40414F; */
+    margin-left: 1%; 
+    /* padding: 5px; */
+
+  }
+  .input-container .enter img:first-child{
+    margin-top: 80px;
+
+  }
+  
+  /* Send button */
+  .send-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 80px;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /*answer part*/
+
+  .answer-whole{
+    display:flex;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));; */
+    --tw-bg-opacity: 1;
+    background-color: rgba(52,53,65,var(--tw-bg-opacity));
+    margin-top: 4%;
+    max-width: calc(100%);
+    /* padding:0px 0px 3px 5px; */
+  }
+
+  .gptlogo{
+    background-color: #40414F;
+    
+  }
+  .answer-container{
+   /* background-color: #202124; */
+   display:inline-table;
+   font-display:grid;
+   background-color: #40414F;
+   max-width: calc(100%-20px);
+   margin-top: 0%;
+   padding: 0%;
+  }
+
+  .answer-container p{
+    color: #D1D5DB;
+    margin-left: 1%;
+    margin-top: 0%;
+    max-block-size: 100%;
+   }
+  
+  
